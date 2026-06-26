@@ -3,4 +3,5 @@ transformers==4.44.2
 sentencepiece
 protobuf
 matplotlib==3.9.0
-torch==2.1.2
+onnxruntime
+optimum[onnxruntime]
