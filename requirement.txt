@@ -1,7 +1,8 @@
-streamlit==1.35.0
-transformers==4.44.2
-sentencepiece
+streamlit
+transformers==4.40.0
+torch==2.2.0
+matplotlib
 protobuf
-matplotlib==3.9.0
-onnxruntime
-optimum[onnxruntime]
+sentencepiece
+huggingface_hub
+accelerate
