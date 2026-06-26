@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 import torch
 import re
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
