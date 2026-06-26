@@ -1,4 +1,6 @@
 streamlit==1.35.0
 transformers==4.44.2
-torch==2.3.0
+torch==2.3.0+cpu
 matplotlib==3.9.0
+sentencepiece
+protobuf
